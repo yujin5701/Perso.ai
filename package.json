@@ -1,0 +1,51 @@
+{
+    "name":"qa-vector-chatbot",
+    "version":"0.1.0",
+    "private":true,
+    "scripts":
+    {
+        "dev":"next dev",
+        "build":"next build",
+        "start":"next start",
+        "ingest":"tsx scripts/ingest.ts"
+    },
+    "dependencies":
+    {
+        "@google/generative-ai":"^0.24.1",
+        "@qdrant/js-client-rest":"^1.10.0",
+        "dotenv":"^17.2.3",
+        "next":"^14.2.5",
+        "openai":"^6.8.1",
+        "papaparse":"^5.4.1",
+        "react":"^18.2.0",
+        "react-dom":"^18.2.0"
+        },
+    "devDependencies":
+    {
+        "@types/node":"^20.11.30",
+        "@types/papaparse":"^5.5.0",
+        "@types/react":"^18.2.66",
+        "@types/react-dom":"^18.2.22",
+        "tsx":"^4.19.2",
+        "typescript":"^5.4.5"
+        
+    },
+        "description":"- Next.js 14 + TypeScript\r - Qdrant Cloud (Vector DB)\r - OpenAI Embedding API (text-embedding-3-small)",
+        "main":"index.js",
+        "directories":
+        {
+            "lib":"lib"
+        },
+        "repository":
+        {
+            "type":"git",
+            "url":"git+https://github.com/yujin5701/Perso.ai.git"},
+            "keywords":[],
+            "author":"",
+            "license":"ISC",
+            "bugs":
+            {
+                "url":"https://github.com/yujin5701/Perso.ai/issues"
+            },
+            "homepage":"https://github.com/yujin5701/Perso.ai#readme"
+}
