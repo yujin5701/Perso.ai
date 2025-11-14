@@ -91,8 +91,8 @@ Perso.ai Q&A 챗봇은
 
 ---
 
-🧭 디렉토리 구조
-
+## 🧭 디렉토리 구조
+```
 Perso.ai/
 ├── app/
 │   ├── api/
@@ -115,33 +115,7 @@ Perso.ai/
 │
 ├── .env.local                        # 환경 변수 (커밋 제외)
 └── README.md                         # 프로젝트 설명 문서
-
----
-
-## 🔐 환경 변수 (.env.local)
-
-QDRANT_URL=https://xxxxxxxx.us-east-1-1.aws.cloud.qdrant.io
-QDRANT_API_KEY=your_qdrant_key
-QDRANT_COLLECTION=qa_pairs_gemini
-GOOGLE_API_KEY=your_google_api_key
-SIM_THRESHOLD=0.6
-GAP_THRESHOLD=0.02
-
-⚠️ **주의:**  
-`.env.local`은 Git에 커밋하면 안 됩니다.  
-배포 시 **GitHub Secrets** 또는 **Vercel Environment Variables**로 관리하세요.
-
----
-
-## 🧾 커밋 메시지 예시
-
-feat: Perso.ai Q&A 챗봇 완성
-
-Qdrant + Gemini 기반 벡터 검색형 챗봇 구현
-
-대화형 UI, 자동 스크롤, 시간 표시, 3점 애니메이션 추가
-
-정확도 평가 스크립트 및 로깅 기반 디버깅 기능 완성
+```
 
 ---
 
@@ -154,13 +128,5 @@ Qdrant + Gemini 기반 벡터 검색형 챗봇 구현
 
 > **“할루시네이션 없는 신뢰 가능한 Q&A 챗봇”**  
 > 데이터 중심 AI 서비스 개발 역량을 입증한 프로젝트입니다.
-
----
-
-## 💼 제작자
-
-- **개발자:** 유진 (Yoo Ji)  
-- **프로젝트:** VibeCoding x ESTSoft 미래내일 일경험 인턴십  
-- **역할:** Backend & AI 챗봇 개발 · 벡터DB 설계 · UI 개선
 
 ---
