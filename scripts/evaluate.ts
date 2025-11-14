@@ -5,7 +5,6 @@ import Papa from "papaparse";
 import { embedText } from "../lib/embed";
 import { qdrant, COLLECTION } from "../lib/qdrant";
 
-dotenv.config({ path: path.resolve(process.cwd(), ".env.local") });
 
 const CSV_PATH = path.resolve(process.cwd(), "data/clean_qa_pairs.csv");
 const SIM_THRESHOLD = Number(process.env.SIM_THRESHOLD ?? 0.75);

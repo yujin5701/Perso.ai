@@ -5,7 +5,6 @@ import Papa from "papaparse";
 import { qdrant, COLLECTION } from "../lib/qdrant";
 import { embedText } from "../lib/embed";
 
-dotenv.config({ path: path.resolve(process.cwd(), ".env.local") });
 
 const CSV_PATH = path.resolve(process.cwd(), "data/clean_qa_pairs.csv");
 const VECTOR_SIZE = 1536;

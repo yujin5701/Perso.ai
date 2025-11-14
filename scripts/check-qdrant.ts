@@ -2,7 +2,6 @@ import dotenv from "dotenv";
 import path from "path";
 import { qdrant, COLLECTION } from "../lib/qdrant";
 
-dotenv.config({ path: path.resolve(process.cwd(), ".env.local") });
 
 async function main() {
   console.log("🌐 Connected to Qdrant");

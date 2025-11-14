@@ -2,7 +2,6 @@ import { qdrant, COLLECTION } from "../lib/qdrant";
 import dotenv from "dotenv";
 import path from "path";
 
-dotenv.config({ path: path.resolve(process.cwd(), ".env.local") });
 
 const VECTOR_SIZE = Number(process.env.VECTOR_SIZE || 1536);
 
