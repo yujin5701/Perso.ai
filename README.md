@@ -95,7 +95,7 @@ Perso.ai Q&A 챗봇은
 - 각 질의에 대해 **Qdrant 검색 결과와 정답을 비교**  
 - 정확도(`Exact Match@1`)와 **모호 비율(Ambiguity Rate)** 자동 계산  
 
-```bash
+```
 $ npx tsx scripts/evaluate.ts
 
 ✅ 정확도(Exact Match@1): 87.5%
