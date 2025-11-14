@@ -1,5 +1,3 @@
-import dotenv from "dotenv";
-import path from "path";
 import OpenAI from "openai";
 
 const client = new OpenAI({

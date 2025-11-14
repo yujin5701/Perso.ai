@@ -1,6 +1,3 @@
-import dotenv from "dotenv";
-import path from "path";
-
 import { QdrantClient } from "@qdrant/js-client-rest";
 
 if (!process.env.QDRANT_URL) {
