@@ -3,13 +3,5 @@
 "builds": [
 { "src": "app/**/*.ts", "use": "@vercel/node" },
 { "src": "next.config.js", "use": "@vercel/next" }
-],
-"env": {
-"OPENAI_API_KEY": "@openai_api_key",
-"QDRANT_URL": "@qdrant_url",
-"QDRANT_API_KEY": "@qdrant_api_key",
-"QDRANT_COLLECTION": "qa_pairs",
-"SIM_THRESHOLD": "0.82",
-"GAP_THRESHOLD": "0.03"
-}
+]
 }
